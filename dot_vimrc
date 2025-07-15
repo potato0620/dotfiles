@@ -1,1 +1,54 @@
-set number
+"--- Gemini's Recommended vim-plug Setup ---
+
+" Auto-install vim-plug if not found
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+" Set leader key to space. MUST be before plugin list.
+let mapleader = " "
+
+" --- Plugin List ---
+call plug#begin('~/.vim/plugged')
+
+" --- Core Essentials ---
+" File explorer
+Plug 'preservim/nerdtree'
+" Git integration
+Plug 'tpope/vim-fugitive'
+" Quick commenting
+Plug 'tpope/vim-commentary'
+" Auto-complete pairs
+Plug 'jiangmiao/auto-pairs'
+
+" --- Appearance ---
+" Statusline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+" Theme
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" --- Advanced (Optional, but recommended) ---
+" Fuzzy search (requires external tools: brew install fzf ripgrep)
+Plug 'junegunn/fzf.vim'
+" Intellisense/LSP (requires external tools: Node.js)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
+" --- Plugin Configuration ---
+
+" NERDTree shortcut: Press <Space> + n to toggle
+nnoremap <leader>n :NERDTreeToggle<CR>
+
+" Enable Dracula theme
+if has('termguicolors')
+  set termguicolors
+endif
+colorscheme dracula
+
+" Set Airline theme
+let g:airline_theme='dracula'
+
