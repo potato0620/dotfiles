@@ -1,5 +1,6 @@
 "--- Gemini's Recommended vim-plug Setup ---
-
+set tabstop=2                                                                                                                                     │
+set shiftwidth=2
 " Auto-install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
