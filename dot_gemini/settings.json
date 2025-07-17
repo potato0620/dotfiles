@@ -7,7 +7,14 @@
       "env": {
         "EXCEL_FILES_PATH": "/Users/potato/Desktop/learn/excels"
       }
+    },
+		"playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
     }
+
   },
   "theme": "GitHub"
 }
