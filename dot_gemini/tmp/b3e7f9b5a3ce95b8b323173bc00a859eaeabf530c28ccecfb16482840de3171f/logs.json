@@ -1,0 +1,142 @@
+[
+  {
+    "sessionId": "a0cd0336-22a1-4efc-bb6c-59a5a3d402a5",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-14T03:57:53.775Z"
+  },
+  {
+    "sessionId": "a0cd0336-22a1-4efc-bb6c-59a5a3d402a5",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T03:25:08.432Z"
+  },
+  {
+    "sessionId": "6a7fa82a-3ad6-4722-8580-6b561f254290",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T03:48:14.947Z"
+  },
+  {
+    "sessionId": "6a7fa82a-3ad6-4722-8580-6b561f254290",
+    "messageId": 1,
+    "type": "user",
+    "message": "{\n   \"mcpServers\": {\n      \"excel\": {\n         \"command\": \"uvx\",\n         \"args\": [\"excel-mcp-server\", \"stdio\"]\n      }\n   }\n} 这个mcp配置中的uvx是什么命令",
+    "timestamp": "2025-07-15T03:48:58.787Z"
+  },
+  {
+    "sessionId": "6a7fa82a-3ad6-4722-8580-6b561f254290",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T03:49:46.517Z"
+  },
+  {
+    "sessionId": "899654e9-80a4-44d0-8d52-869013653981",
+    "messageId": 0,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-07-15T03:50:50.728Z"
+  },
+  {
+    "sessionId": "899654e9-80a4-44d0-8d52-869013653981",
+    "messageId": 1,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T03:51:03.326Z"
+  },
+  {
+    "sessionId": "5b5ec3cb-b86e-4b0b-a9f9-43f36063734a",
+    "messageId": 0,
+    "type": "user",
+    "message": "{\n   \"mcpServers\": {\n      \"excel\": {\n         \"command\": \"uvx\",\n         \"args\": [\"excel-mcp-server\", \"stdio\"]\n      }\n   }\n} 为什么这个mcp服务不能用",
+    "timestamp": "2025-07-15T03:53:02.858Z"
+  },
+  {
+    "sessionId": "5b5ec3cb-b86e-4b0b-a9f9-43f36063734a",
+    "messageId": 1,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T05:43:01.418Z"
+  },
+  {
+    "sessionId": "5b5ec3cb-b86e-4b0b-a9f9-43f36063734a",
+    "messageId": 2,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T05:43:58.250Z"
+  },
+  {
+    "sessionId": "a2f792f8-cce7-473b-b2cb-09d0b9ff58d3",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T05:44:12.101Z"
+  },
+  {
+    "sessionId": "a2f792f8-cce7-473b-b2cb-09d0b9ff58d3",
+    "messageId": 1,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T06:05:20.263Z"
+  },
+  {
+    "sessionId": "a2f792f8-cce7-473b-b2cb-09d0b9ff58d3",
+    "messageId": 2,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T06:05:33.979Z"
+  },
+  {
+    "sessionId": "b7a18cce-8779-4ee0-9810-d8c843c15152",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T06:05:44.015Z"
+  },
+  {
+    "sessionId": "b7a18cce-8779-4ee0-9810-d8c843c15152",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T06:11:55.838Z"
+  },
+  {
+    "sessionId": "22833cde-c753-4e94-952b-6e0858c9cb11",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T06:12:03.480Z"
+  },
+  {
+    "sessionId": "22833cde-c753-4e94-952b-6e0858c9cb11",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T06:14:50.963Z"
+  },
+  {
+    "sessionId": "0d444387-9a36-407a-bd32-3c26724e1d5d",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T06:14:59.410Z"
+  },
+  {
+    "sessionId": "0d444387-9a36-407a-bd32-3c26724e1d5d",
+    "messageId": 1,
+    "type": "user",
+    "message": "现在有哪些mcp服务",
+    "timestamp": "2025-07-15T06:15:42.177Z"
+  },
+  {
+    "sessionId": "0d444387-9a36-407a-bd32-3c26724e1d5d",
+    "messageId": 2,
+    "type": "user",
+    "message": "帮我看看/Users/potato/Desktop/learn/excels 里面有哪些excel表",
+    "timestamp": "2025-07-15T06:16:24.118Z"
+  }
+]

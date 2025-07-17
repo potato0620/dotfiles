@@ -1,0 +1,23 @@
+[
+  {
+    "sessionId": "79e17750-0b76-425d-b92d-8de3e47c5e39",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-16T08:31:01.059Z"
+  },
+  {
+    "sessionId": "79e17750-0b76-425d-b92d-8de3e47c5e39",
+    "messageId": 1,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-16T08:31:10.616Z"
+  },
+  {
+    "sessionId": "8a10fe8a-20c2-4a52-80b2-55ae77f60753",
+    "messageId": 0,
+    "type": "user",
+    "message": "dotfile 是什么文件",
+    "timestamp": "2025-07-16T08:32:30.025Z"
+  }
+]

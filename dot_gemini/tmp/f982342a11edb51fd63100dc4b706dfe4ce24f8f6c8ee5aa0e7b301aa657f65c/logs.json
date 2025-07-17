@@ -1,0 +1,65 @@
+[
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 0,
+    "type": "user",
+    "message": "帮我看看当前目录下有些什么excel文件",
+    "timestamp": "2025-07-15T06:17:59.500Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 1,
+    "type": "user",
+    "message": "看一下这个文件里面有些什么内容",
+    "timestamp": "2025-07-15T06:18:58.391Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 2,
+    "type": "user",
+    "message": "km4-法语吧",
+    "timestamp": "2025-07-15T06:19:28.814Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 3,
+    "type": "user",
+    "message": "你能理解其中的英文以及后面对应的翻译的关系吗",
+    "timestamp": "2025-07-15T06:20:47.259Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 4,
+    "type": "user",
+    "message": "/Users/potato/Desktop/zhinan_tech/spark/src/templates/tecno-text/km4/en/params.pug 你现在看看这个pug文件里面是一些英文文案 帮我把这些英文文案改成 excel中对应的法语文案",
+    "timestamp": "2025-07-15T06:23:45.928Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 5,
+    "type": "user",
+    "message": "”/Users/potato/Desktop/zhinan_tech/spark/src/templates/tecno-text/km4/en/params.pug“ 你现在看看这个pug文件里面是一些英文文案 帮我把这些英文文案改成 \n  excel中对应的法语文案",
+    "timestamp": "2025-07-15T06:24:00.679Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 6,
+    "type": "user",
+    "message": "好了 我已经将params.pug 移动到指定目录了 请你继续执行",
+    "timestamp": "2025-07-15T06:25:46.351Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 7,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T06:49:49.103Z"
+  },
+  {
+    "sessionId": "b0b0b48e-262d-4cc9-8daf-f3480be01af5",
+    "messageId": 8,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T06:50:09.476Z"
+  }
+]

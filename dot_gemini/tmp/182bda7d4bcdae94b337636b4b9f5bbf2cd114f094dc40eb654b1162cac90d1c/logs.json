@@ -1,0 +1,23 @@
+[
+  {
+    "sessionId": "dc86fe3b-c6b6-4d4d-a5a5-9aa461746379",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T08:03:22.160Z"
+  },
+  {
+    "sessionId": "dc86fe3b-c6b6-4d4d-a5a5-9aa461746379",
+    "messageId": 1,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-15T08:03:34.015Z"
+  },
+  {
+    "sessionId": "6b44aa71-ff2f-4b09-a9b7-7b49225836db",
+    "messageId": 0,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-15T08:12:06.980Z"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 0,
+    "type": "user",
+    "message": "/mcp",
+    "timestamp": "2025-07-17T03:33:38.262Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 1,
+    "type": "user",
+    "message": "你好 看到当前目录下的params.pug了吗",
+    "timestamp": "2025-07-17T03:34:01.840Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 2,
+    "type": "user",
+    "message": "还有下面的km5开头这个xlsx",
+    "timestamp": "2025-07-17T03:34:57.624Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 3,
+    "type": "user",
+    "message": "是的 读取 params.pug里面的内容然后在excel里面找到对应的葡语翻译然后帮我替换掉params.pug里面的英语 要是遇到t:[\"SUPER\",\"BATTERY\",\"LIFE\",\"EXPERIENCE\"],这种数组分割的格式 替换的时候改为字符串格式 例如 t:\"Experiência de Bateria Super Duradoura\"",
+    "timestamp": "2025-07-17T03:37:51.631Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 4,
+    "type": "user",
+    "message": "你帮我对照翻译检查一下吧 我不会葡萄牙语",
+    "timestamp": "2025-07-17T03:41:52.388Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 5,
+    "type": "user",
+    "message": "很棒 马上帮我写入谢谢",
+    "timestamp": "2025-07-17T03:45:07.839Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 6,
+    "type": "user",
+    "message": "没有了 good job!",
+    "timestamp": "2025-07-17T05:54:23.268Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 7,
+    "type": "user",
+    "message": "/theme",
+    "timestamp": "2025-07-17T05:54:53.780Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 8,
+    "type": "user",
+    "message": "/theme",
+    "timestamp": "2025-07-17T05:55:46.376Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 9,
+    "type": "user",
+    "message": "/tools",
+    "timestamp": "2025-07-17T05:56:40.424Z"
+  },
+  {
+    "sessionId": "2efb37de-2663-4f3c-aaea-84d19308685e",
+    "messageId": 10,
+    "type": "user",
+    "message": "/quit",
+    "timestamp": "2025-07-17T07:29:59.681Z"
+  }
+]
