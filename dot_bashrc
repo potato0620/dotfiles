@@ -14,4 +14,4 @@ proxy_on
 
 # claude code config
 export ANTHROPIC_AUTH_TOKEN="sk-Vrf3SJ5jbpOxvls9NSltNJZOWBYsGnRvEe7mIsUFYHrLWFC1"
-export ANTHROPIC_BASE_URL="https://anyrouter.top"
+export ANTHROPIC_BASE_URL="https://pmpjfbhq.cn-nb1.rainapp.top"
