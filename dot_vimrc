@@ -52,3 +52,6 @@ colorscheme dracula
 " Set Airline theme
 let g:airline_theme='dracula'
 
+" 使回车键可以选择补全
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
