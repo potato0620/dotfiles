@@ -2,15 +2,13 @@ proxy_on() {
     export http_proxy="http://127.0.0.1:7890"
     export https_proxy="http://127.0.0.1:7890"
     export all_proxy="socks5://127.0.0.1:7891"
-    echo "Proxy ON: $http_proxy"
+    echo "Proxy ON🚀: $http_proxy"
 }
 
 proxy_off() {
     unset http_proxy https_proxy all_proxy
-    echo "Proxy OFF"
+    echo "Proxy OFF🚫"
 }
-
-proxy_on
 
 # claude code config
 export ANTHROPIC_AUTH_TOKEN="sk-Vrf3SJ5jbpOxvls9NSltNJZOWBYsGnRvEe7mIsUFYHrLWFC1"
