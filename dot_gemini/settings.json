@@ -1,0 +1,21 @@
+{
+  "selectedAuthType": "gemini-api-key",
+  "mcpServers": {
+    "excel": {
+      "type": "sse",
+      "url": "http://localhost:8000/sse",
+      "env": {
+        "EXCEL_FILES_PATH": "/Users/potato/Desktop/learn/excels"
+      }
+    },
+		"playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+				"--headless"
+      ]
+    }
+
+  },
+  "theme": "GitHub"
+}
