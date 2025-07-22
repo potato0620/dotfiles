@@ -141,7 +141,7 @@ function pon() {
     export http_proxy=http://127.0.0.1:7890
     export all_proxy=socks5://127.0.0.1:7890
     echo "============================================"
-		echo "🚀terminal proxy is on"
+		echo "🚀terminal proxy on"
     echo "HTTP/HTTPS Proxy: http://127.0.0.1:7890"
     echo "SOCKS5 Proxy: socks5://127.0.0.1:7890"
 		echo "============================================"
@@ -151,7 +151,7 @@ function pof() {
     unset https_proxy
     unset http_proxy
     unset all_proxy
-    echo "🚫terminal proxy is off"
+    echo "🚫terminal proxy  off"
 }
 
 #claude
