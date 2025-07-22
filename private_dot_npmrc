@@ -1,0 +1,9 @@
+@prometheus:registry=https://git.daguchuangyi.com/api/v4/projects/605/packages/npm/
+//git.daguchuangyi.com/api/v4/projects/605/packages/npm/:_authToken=125YB-hdUz-2BWobM_MB
+@campaign:registry=https://git.daguchuangyi.com/api/v4/projects/678/packages/npm/
+//git.daguchuangyi.com/api/v4/projects/678/packages/npm/:_authToken=ip99dG3LvzZXx4_ncYz7
+@zhinan:registry=https://git.daguchuangyi.com/api/v4/projects/617/packages/npm/
+//git.daguchuangyi.com/api/v4/projects/617/packages/npm/:_authToken=3iw_J1cgjPagNE7G5ASe
+
+# mirror config taobao`s mirror store
+registry=https://registry.npmmirror.com
