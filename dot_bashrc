@@ -1,13 +1,18 @@
-proxy_on() {
+pon() {
     export http_proxy="http://127.0.0.1:7890"
     export https_proxy="http://127.0.0.1:7890"
     export all_proxy="socks5://127.0.0.1:7891"
-    echo "Proxy ON🚀: $http_proxy"
+ 		echo "============================================"
+    echo "🚀terminal proxy on"
+    echo "HTTP/HTTPS Proxy: http://127.0.0.1:7890"
+    echo "SOCKS5 Proxy: socks5://127.0.0.1:7890"
+    echo "============================================"
+
 }
 
-proxy_off() {
+pof() {
     unset http_proxy https_proxy all_proxy
-    echo "Proxy OFF🚫"
+    echo "🚫terminal proxy off"
 }
 
 # claude code config
