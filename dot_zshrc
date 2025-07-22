@@ -135,14 +135,28 @@ esac
 # gemini
 export GEMINI_API_KEY="AIzaSyBszjjGFOB7NWljjueIDYH4SIkQ7Kbuq3w"
 
-#proxy
-export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+#proxy functions
+function proxy_on() {
+    export https_proxy=http://127.0.0.1:7890
+    export http_proxy=http://127.0.0.1:7890
+    export all_proxy=socks5://127.0.0.1:7890
+    echo "🔥 Proxy is ON"
+    echo "HTTP/HTTPS Proxy: http://127.0.0.1:7890"
+    echo "SOCKS5 Proxy: socks5://127.0.0.1:7890"
+}
+
+function proxy_off() {
+    unset https_proxy
+    unset http_proxy
+    unset all_proxy
+    echo "❌ Proxy is OFF"
+}
+
+# 默认启用代理
+proxy_on
 #claude
 export ANTHROPIC_AUTH_TOKEN="sk-Vrf3SJ5jbpOxvls9NSltNJZOWBYsGnRvEe7mIsUFYHrLWFC1"
 export ANTHROPIC_BASE_URL=https://anyrouter.top
-#homebrew
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
-export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
-export HOMEBREW_INSTALL_FROM_API=1
+
 
 . "$HOME/.local/bin/env"
