@@ -2,9 +2,19 @@
 	name = potato
 	email = potato.coderx@gmail.com
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[core]
+	editor = vim
+[pull]
+	rebase = false
+[color]
+	ui = auto
+[http]
+	proxy = http://127.0.0.1:7890
+[https]
+	proxy = http://127.0.0.1:7890
