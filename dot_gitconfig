@@ -10,6 +10,7 @@
 	required = true
 [core]
 	editor = vim
+	autocrlf = false
 [pull]
 	rebase = false
 [color]
