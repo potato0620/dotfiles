@@ -168,4 +168,4 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 #go air
 export PATH="$(go env GOPATH)/bin:$PATH"
 #go proxy
-export GOPROXY=https://mirrors.tuna.tsinghua.edu.cn/git/goproxy/
+export GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
