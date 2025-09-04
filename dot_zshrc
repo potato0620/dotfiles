@@ -165,3 +165,5 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 . "$HOME/.local/bin/env"
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+#go air
+export PATH="$(go env GOPATH)/bin:$PATH"
