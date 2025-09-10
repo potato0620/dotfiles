@@ -108,7 +108,6 @@ export NVM_DIR="$HOME/.nvm"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 plugins=(
 git
-git-open
 )
 #mysql
 export MYSQL_HOME=/usr/local/mysql
@@ -169,3 +168,5 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 export PATH="$(go env GOPATH)/bin:$PATH"
 #go proxy
 export GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+#java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
