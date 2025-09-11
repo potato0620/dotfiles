@@ -168,5 +168,5 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 export PATH="$(go env GOPATH)/bin:$PATH"
 #go proxy
 export GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
-#java
+#java config
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
