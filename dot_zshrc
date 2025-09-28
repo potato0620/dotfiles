@@ -170,3 +170,6 @@ export PATH="$(go env GOPATH)/bin:$PATH"
 export GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
 #java config
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+#brew node config
+export CPPFLAGS=-I/opt/homebrew/include
+export LDFLAGS=-L/opt/homebrew/lib
