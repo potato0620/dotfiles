@@ -133,7 +133,7 @@ esac
 # pnpm end
 
 # gemini
-export GEMINI_API_KEY="AIzaSyBszjjGFOB7NWljjueIDYH4SIkQ7Kbuq3w"
+export GEMINI_API_KEY="AIzaSyBGJYbM1xvTGdLX5s-7NUcraeaFg5oUbHo"
 
 #proxy functions
 function pon() {
