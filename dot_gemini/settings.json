@@ -1,18 +1,5 @@
 {
   "selectedAuthType": "gemini-api-key",
-  "mcpServers": {
-  	 "excel": {
-     	"command": "uvx",
-      "args": ["excel-mcp-server", "stdio"]
-    },
-		"playwright": {
-      "command": "npx",
-      "args": [
-        "@playwright/mcp@latest",
-				"--headless"
-      ]
-    }
-
-  },
+  "mcpServers": {},
   "theme": "GitHub"
 }
