@@ -1,0 +1,9 @@
+keybind = global:option+space=toggle_quick_terminal
+gtk-quick-terminal-layer=overlay
+quick-terminal-size=75%,100%
+quick-terminal-position=top
+quick-terminal-animation-duration=0
+background-opacity=0.6
+background=#000000
+background-blur=70
+theme=Atom One Dark
