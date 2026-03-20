@@ -1,6 +1,6 @@
 keybind = global:option+space=toggle_quick_terminal
 gtk-quick-terminal-layer=overlay
-quick-terminal-size=80%
+quick-terminal-size=80% 100%
 quick-terminal-position=top
 quick-terminal-animation-duration=0
 background-opacity=0.65
