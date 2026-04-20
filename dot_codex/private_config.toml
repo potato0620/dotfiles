@@ -1,0 +1,21 @@
+model = "gpt-5.3-codex"
+model_provider = "anyrouter"
+preferred_auth_method = "apikey"
+model_reasoning_effort = "medium"
+
+
+[model_providers.anyrouter]
+name = "Any Router"
+base_url = "https://anyrouter.top/v1"
+wire_api = "responses"
+
+[plugins."figma@openai-curated"]
+enabled = true
+
+[marketplaces.openai-bundled]
+last_updated = "2026-04-20T05:22:08Z"
+source_type = "local"
+source = "/Users/potato/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[projects."/Users/potato"]
+trust_level = "trusted"
